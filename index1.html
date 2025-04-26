@@ -1,24 +1,32 @@
 <!-- Weather App GEt USer LOCATION ☁️ -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App GEt USer LOCATION ☁️</title>
-    <style>
-        *{
-            background-color: skyblue;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <div class="weather-app">
 
-    <h1>GET User Location</h1>
-    <button id="location-button">Get Location</button>
-    <script src="script1.js"></script>
+    <h1>Weather App</h1>
+
+    <div class="search-box">
+      <button id="location-button">Search</button>
+    </div>
 
 
+    <div class="weather-info">
+      <h2 id="cityName">City Name</h2>
+      <p id="temperature">--°C</p>
+      <p id="time">Time</p>
+      <p id="condition">Weather Condition</p>
+    </div>
+
+  </div>
+
+  <script src="script1.js"></script>
 </body>
 </html>
